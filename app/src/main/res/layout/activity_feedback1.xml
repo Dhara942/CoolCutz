@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Feedback1">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="118dp"
+        android:layout_height="48dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Done"
+        android:textColor="#2B58B5"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="253dp"
+        tools:layout_editor_absoluteY="482dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="334dp"
+        android:layout_height="357dp"
+        android:textColor="#F15076"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="36dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="305dp"
+        android:layout_height="47dp"
+        android:fontFamily="sans-serif"
+        android:text="Leave Your Feedback"
+        android:textColor="#DD4D98"
+        android:textColorLink="#C6EC4588"
+        android:textSize="26sp"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="95dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="191dp"/>
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine2"
+        android:layout_width="334dp"
+        android:layout_height="193dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="117dp" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine4"
+        android:layout_width="334dp"
+        android:layout_height="63dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="285dp" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine3"
+        android:layout_width="340dp"
+        android:layout_height="53dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="208dp" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine5"
+        android:layout_width="334dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="383dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="83dp"
+        android:layout_height="79dp"
+        app:srcCompat="@drawable/tran"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

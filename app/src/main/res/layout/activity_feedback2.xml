@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".feedback2">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="413dp"
+        android:layout_height="103dp"
+        android:text="@string/thank_you_for_your_feedback"
+        android:textColor="#FA5EBB"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.173" />
+
+    <TextView
+        android:id="@+id/feedback"
+        android:layout_width="301dp"
+        android:layout_height="241dp"
+        android:background="#EDB7B7"
+        android:text="A very warm and friendly person, I highly recommend him.” “Thank you for many years of always treating me and my hair with top notch service. I always leave knowing I got the best hair style in the area.” “Chathu is the most amazing hair stylist."
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.406" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="232dp"
+        android:layout_height="73dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Edit Fedback"
+        android:textColor="#1A237E"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.558"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.741" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="230dp"
+        android:layout_height="73dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Delete"
+        android:textColor="#4A148C"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.546"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.886" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="112dp"
+        android:layout_height="69dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.743"
+        app:srcCompat="@drawable/edit" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="99dp"
+        android:layout_height="68dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.879"
+        app:srcCompat="@drawable/delete" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="164dp"
+        android:layout_height="82dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.041"
+        app:srcCompat="@drawable/tran" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
