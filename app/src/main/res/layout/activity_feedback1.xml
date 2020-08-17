@@ -11,7 +11,7 @@
         android:layout_width="118dp"
         android:layout_height="48dp"
         android:fontFamily="sans-serif-medium"
-        android:text="Done"
+        android:text="@string/done"
         android:textColor="#2B58B5"
         android:textSize="18sp"
         tools:layout_editor_absoluteX="253dp"
@@ -29,7 +29,7 @@
         android:layout_width="305dp"
         android:layout_height="47dp"
         android:fontFamily="sans-serif"
-        android:text="Leave Your Feedback"
+        android:text="@string/feedbk"
         android:textColor="#DD4D98"
         android:textColorLink="#C6EC4588"
         android:textSize="26sp"
@@ -89,5 +89,13 @@
         app:srcCompat="@drawable/tran"
         tools:layout_editor_absoluteX="170dp"
         tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="115dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/edit"
+        tools:layout_editor_absoluteX="295dp"
+        tools:layout_editor_absoluteY="110dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

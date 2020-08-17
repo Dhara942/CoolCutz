@@ -1,4 +1,32 @@
 <resources>
     <string name="app_name">Cool Cutz</string>
     <string name="thank_you_for_your_feedback">..Thank you for Your Feedback..</string>
+    <string name="heading">..About us..</string>
+    <string name="para1">Cool Cutz</string>
+    <string name="Artist2">Her interest in the fields of Hair and Beauty has prompted an invitation
+        from the Skills Development Authority to serve
+        on the panel to set up standards for Hair and Beauty. </string>
+    <string name="Artist3">Her interest in the fields of Hair and Beauty has prompted an
+        invitation from the Skills Development Authority to serve on the panel to set
+        up standards for Hair and Beauty. </string>
+    <string name="note">Experience excellence in a truly
+        luxurious atmosphere offering you the ultimate satisfaction
+        in hair and beauty services with Salon cool cutz
+        by Master Stylist shifu who recognized worldwide as
+        an international consultant and migrant stylist.
+        ~~cool cutz</string>
+    <string name="feedbk">Leave Your Feedback</string>
+    <string name="feeddes">A very warm and friendly person, I highly recommend him.”
+        “Thank you for many years of always treating me and my hair with top notch service.
+        I always leave knowing I got the best hair style in the area.”
+        “Chathu is the most amazing hair stylist.</string>
+    <string name="Deletefeed">Delete</string>
+    <string name="edtfeed">Edit Fedback</string>
+    <string name="done">Done</string>
+    <string name="findus">Find Us on..</string>
+    <string name="addapp">Add Appoinment</string>
+    <string name="deleteapp">Delete Appoinment</string>
+    <string name="Upcoming">Upcoming</string>
+    <string name="past">Past</string>
+
 </resources>

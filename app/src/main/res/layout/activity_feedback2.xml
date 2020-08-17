@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F3E2E5"
     tools:context=".feedback2">
 
     <TextView
@@ -25,7 +26,7 @@
         android:layout_width="301dp"
         android:layout_height="241dp"
         android:background="#EDB7B7"
-        android:text="A very warm and friendly person, I highly recommend him.” “Thank you for many years of always treating me and my hair with top notch service. I always leave knowing I got the best hair style in the area.” “Chathu is the most amazing hair stylist."
+        android:text="@string/feeddes"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -38,7 +39,7 @@
         android:layout_width="232dp"
         android:layout_height="73dp"
         android:fontFamily="sans-serif-black"
-        android:text="Edit Fedback"
+        android:text="@string/edtfeed"
         android:textColor="#1A237E"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -53,7 +54,7 @@
         android:layout_width="230dp"
         android:layout_height="73dp"
         android:fontFamily="sans-serif-black"
-        android:text="Delete"
+        android:text="@string/Deletefeed"
         android:textColor="#4A148C"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
